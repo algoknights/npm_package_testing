@@ -1,0 +1,31 @@
+{
+  "name": "express-easy-logger",
+  "version": "1.0.0",
+  "description": "A beginner-friendly Express request logger with colors, file saving, and a built-in web viewer.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src/"
+  ],
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "example": "node example/server.js"
+  },
+  "keywords": [
+    "express",
+    "logger",
+    "middleware",
+    "http-logger",
+    "easy",
+    "beginner-friendly",
+    "log-viewer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.21.2"
+  }
+}
